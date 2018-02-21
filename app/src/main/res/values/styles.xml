@@ -1,0 +1,30 @@
+<resources>
+    <color name="colorPrimary">@color/md_indigo_500</color>
+    <color name="colorPrimaryDark">@color/md_indigo_700</color>
+    <color name="colorPrimaryLight">@color/md_indigo_100</color>
+    <color name="colorAccent">@color/md_light_green_500</color>
+    <color name="colorPrimaryText">@color/md_grey_900</color>
+    <color name="colorSecondaryText">@color/md_grey_600</color>
+    <color name="colorIcons">@color/md_white_1000</color>
+    <color name="colorDivider">@color/md_grey_400</color>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+        <item name="android:icon">@color/colorIcons</item>
+        <item name="android:windowBackground">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
